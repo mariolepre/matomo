@@ -1,0 +1,22 @@
+services:
+  matomo:
+    image: mariolepre/matomo-custom:1.0.0
+    ports:
+      - "8082:80"
+    environment:
+      - MATOMO_DATABASE_HOST=db
+      - MATOMO_DATABASE_ADAPTER=mysql
+      - MATOMO_DATABASE_USERNAME=root
+      - MATOMO_DATABASE_PASSWORD=root
+      - MATOMO_DATABASE_DBNAME=matomo
+    depends_on:
+      - db
+  db:
+    image: mariadb:10.11
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=matomo
+    volumes:
+      - dbdata:/var/lib/mysql
+volumes:
+  dbdata:
