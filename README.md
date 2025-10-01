@@ -27,7 +27,12 @@ If for any reason, the automatic installation fails, these are the parameters th
 * Login: root
 * Password: root
 * Database Name: matomo
-
-Superuser and Website can be chosen independently.
+* Superuser login: admin
+* Password: **e2eW3Bt3s71nGB3nchM4rK**
+* Password (repeat): **e2eW3Bt3s71nGB3nchM4rK**
+* Email: admin@matomo.test
+* Website name: Matomo test
+* Website url: https://matomo.test
+* Website timezone: UTC+2
 
 Now you are ready to use Matomo!
