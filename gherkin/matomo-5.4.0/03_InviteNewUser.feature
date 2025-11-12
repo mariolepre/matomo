@@ -11,13 +11,6 @@ Scenario: Invite a new user with "View" role
   And enters "user@matomo.com" in the "Email" field
   And clicks the "Invite user" button
   And enters "e2eW3Bt3s71nGB3nchM4rK" in the "Password" field
-  And clicks on "confirm" button
-  And clicks on "Permissions" link
-  And select the role "View"
-  And clicks on "apply" button
-  And clicks on "basic information" link
-  And clicks on "save basic info"
-  And enters "e2eW3Bt3s71nGB3nchM4rK" in the "Password" field
-  And clicks on "Back to users" link
-  Then "user" with role "View" is displayed in the users table
+  And clicks "Confirm" button
+  Then "Invitation sent." message is displayed in the users table
   

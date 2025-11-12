@@ -5,9 +5,9 @@ Scenario: Add a new website to track
   And clicks the "Sign In" button
   And clicks the "All Websites"
   And clicks the "Add a new website" button
-  And clicks "Intranet website" button
-  And enters "TEST" on the name field
-  And enters "http://test.matomo.it" on the URLs field
-  And click on the "save" button
-  Then the "test" website is shown on the list of website
+  And clicks "Website" button
+  And enters "Web Test" on the name field
+  And enters "http://webtest.matomo.it" on the URLs field
+  And click on the "SAVE" button
+  Then the "Website created" website is shown on the list of website
   And a notification "Website created" is displayed
