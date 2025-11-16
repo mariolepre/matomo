@@ -1,6 +1,6 @@
 services:
   matomo:
-    image: mariolepre/matomo-custom:1.0.0
+    image: mariolepre/matomo-custom:5.5.0-custom
     ports:
       - "8082:80"
     environment:
