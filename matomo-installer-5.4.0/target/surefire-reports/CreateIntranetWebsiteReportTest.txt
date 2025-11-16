@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: AddNewWebsiteTest
+Test set: CreateIntranetWebsiteReportTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 58.75 s -- in AddNewWebsiteTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.76 s -- in CreateIntranetWebsiteReportTest
